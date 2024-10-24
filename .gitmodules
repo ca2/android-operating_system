@@ -1,0 +1,8 @@
+[submodule "operating_system-android"]
+	path = operating_system-android
+	url = ../operating_system-android
+	branch = main
+[submodule "operating_system-posix"]
+	path = operating_system-posix
+	url = ../operating_system-posix
+	branch = main
