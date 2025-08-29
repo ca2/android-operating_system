@@ -19,7 +19,11 @@ add_subdirectory(operating_system-android/node_android)
 add_subdirectory(operating_system-android/windowing_android)
 add_subdirectory(operating_system-android/operating_ambient_android)
 add_subdirectory(operating_system-android/write_text_android)
-#add_subdirectory(operating_system-android/input_win32)
+add_subdirectory(operating_system-posix/write_text_pango)
+add_subdirectory(operating_system-posix/audio_alsa)
+    add_subdirectory(operating_system-posix/music_midi_alsa)
+
+    #add_subdirectory(operating_system-android/input_win32)
 endif()
 
 
