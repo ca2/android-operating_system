@@ -18,7 +18,7 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "Android")
     add_subdirectory(operating_system-android/node_android)
     add_subdirectory(operating_system-android/windowing_android)
     add_subdirectory(operating_system-android/operating_ambient_android)
-    add_subdirectory(operating_system-android/write_text_android)
+    add_subdirectory(operating_system-android/write_text_afont)
     add_subdirectory(operating_system-posix/write_text_pango)
 
     add_subdirectory(operating_system-android/audio_aaudio)
