@@ -23,6 +23,7 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "Android")
 
     add_subdirectory(operating_system-android/audio_aaudio)
     add_subdirectory(operating_system-android/audio_opensles)
+    add_subdirectory(operating_system-android/_libc++_shared)
 
     #add_subdirectory(operating_system-posix/music_midi_alsa)
 
